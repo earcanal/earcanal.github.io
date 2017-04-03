@@ -1,0 +1,46 @@
+body {
+/*
+  	background-image: url(lake-430508.jpg);
+  	background-image: url(nature-reserve-375609.jpg);
+  	*/
+  	-webkit-background-size: 100% 100%;
+  	-o-background-size: 100% 100%;
+ 	font-family: Arial, Helvetica;
+ 	border: 0;
+ 	margin: 0;
+ 	padding: 0;
+}
+h1 {
+  text-align: center;
+  font-size: 400%;
+  margin-bottom: 1em;
+}
+img#explore {
+	float: left;
+	padding: .5em;
+}
+ul.benefits {
+	font-size: 2em;
+	margin-left: 6em;
+}
+ul.benefits li {
+	padding: .5em 0;
+}
+.my-container {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 2em;
+}
+.my-container h1, .my-container ul, .my-container #explore {
+    position: relative;
+    z-index: 2;
+} 
+.my-container img#background {
+    position: absolute;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.3;
+}
