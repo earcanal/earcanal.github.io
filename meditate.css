@@ -13,15 +13,15 @@ body {
 h1 {
   text-align: center;
   font-size: 400%;
-  margin-bottom: .5em;
+  margin-bottom: 1em;
 }
 img#explore {
 	float: left;
-	padding: .5em;
+	padding: 1em;
 }
 ul.benefits {
 	font-size: 2em;
-	margin-left: 6em;
+	margin-left: 12em;
 }
 ul.benefits li {
 	padding: .5em 0;
@@ -29,7 +29,7 @@ ul.benefits li {
 .my-container {
     position: relative;
     overflow: hidden;
-    padding-bottom: 2em;
+    padding-bottom: 27em;
 }
 .my-container h1, .my-container ul, .my-container #explore {
     position: relative;
